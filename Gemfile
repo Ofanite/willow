@@ -30,6 +30,9 @@ gem 'capistrano'
 #   gem 'webrat'
 # end
 
+gem 'devise' # Let's manage our own user accounts for now.
+
+
 group :production do
   gem 'pg'
 end
