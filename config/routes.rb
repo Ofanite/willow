@@ -1,4 +1,12 @@
 Willow::Application.routes.draw do
+  get "characters/index"
+
+  get "characters/show"
+
+  get "characters/edit"
+
+  get "characters/new"
+
   devise_for :users
 
   # The priority is based upon order of creation:
